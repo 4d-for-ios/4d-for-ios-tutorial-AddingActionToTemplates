@@ -167,6 +167,9 @@
                                 </connections>
                             </tableViewCell>
                         </prototypes>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="actions" value="___ENTITY_ACTIONS___"/>
+                        </userDefinedRuntimeAttributes>
                         <connections>
                             <outlet property="dataSource" destination="Dxc-Bl-At2" id="Nbk-b7-Ogd"/>
                             <outlet property="delegate" destination="Dxc-Bl-At2" id="k5f-vV-EBw"/>
@@ -187,6 +190,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="sortField" value="___SORT_FIELD___"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="sectionFieldname" value="___SECTION_FIELD___"/>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="showSectionBar" value="NO"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="actions" value="___TABLE_ACTIONS___"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="searchBar" destination="eqo-z7-dF9" id="ZJt-km-6cn"/>

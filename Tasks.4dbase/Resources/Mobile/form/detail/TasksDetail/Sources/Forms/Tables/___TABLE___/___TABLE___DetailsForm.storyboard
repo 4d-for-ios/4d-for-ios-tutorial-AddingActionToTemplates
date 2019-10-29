@@ -369,6 +369,9 @@
                                     <constraint firstAttribute="height" constant="60" id="8M4-T9-XQD"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="moreButton"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="actions" value="___ENTITY_ACTIONS___"/>
+                                </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.194075197" green="0.2341721058" blue="0.27582132819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

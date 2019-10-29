@@ -115,6 +115,12 @@
                                     <constraint firstAttribute="trailing" secondItem="7Rp-Ww-HX0" secondAttribute="trailing" constant="10" id="xjv-c5-dgS"/>
                                 </constraints>
                                 <size key="customSize" width="235" height="254"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="actions" value="___ENTITY_ACTIONS___"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="touch.zoomScale">
+                                        <real key="value" value="0.95999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="TmP-Gk-7ej" kind="show" identifier="showDetails" id="gh0-O0-9uL"/>
                                 </connections>
@@ -137,6 +143,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="searchableField" value="___SEARCHABLE_FIELD___"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="sortField" value="___SORT_FIELD___"/>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="showSectionBar" value="NO"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="actions" value="___TABLE_ACTIONS___"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="searchBar" destination="eqo-z7-dF4" id="ZJt-km-6cn"/>
